@@ -28,4 +28,4 @@ To check if everything is running like it should, run the tests with the command
 
 ```should be able to give a like to the repository```: In order for this test to pass, your application must allow a repository with the given id to receive likes. The value of likes must be increased by 1 for each request, and as a result, return a json containing the repository with the number of likes updated.
 
-```should not be able to like a repository that does not exist```: For this test to pass, you must validate on your like route whether the repository id sent by the url exists or not. If not, return an error with status 400.
+```should not be able to like a repository that does not exist```: In order for this test to pass, you must validate on your like route whether the repository id sent by the url exists or not. If not, return an error with status 400.
